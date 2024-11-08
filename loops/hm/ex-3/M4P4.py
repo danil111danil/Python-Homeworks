@@ -36,6 +36,10 @@ else:
 start = int(input("\nEnter the starting number of the range: "))
 end = int(input("Enter the ending number of the range: "))
 
+if start > end:
+    start,end = end,start
+    print("\nDon't mess it up, next time at least.")
+
 print(f"\nMultiplication table from {start} to {end}:\n")
 
 for i in range(start, end + 1):
