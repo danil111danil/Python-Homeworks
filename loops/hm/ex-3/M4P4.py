@@ -41,5 +41,5 @@ print(f"\nMultiplication table from {start} to {end}:\n")
 for i in range(start, end + 1):
 
     for j in range(1, 11):
-        print(f"{i}*{j} = {i * j}", end=" ")
+        print(f"{i}*{j}={i * j}", end=" ")
     print()
